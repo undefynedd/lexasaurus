@@ -1,6 +1,6 @@
 export default function Menu() {
     return (
-	<nav className="bg-primary dark:bg-primary-dark border-b border-foreground w-full flex justify-between">
+	<nav className="bg-primary dark:bg-primary-dark border-b border-foreground/50 w-full flex justify-between">
 	    <span className="hidden md:flex">
 		<MenuItem>lists</MenuItem>
 	    	<MenuItem>create</MenuItem>
