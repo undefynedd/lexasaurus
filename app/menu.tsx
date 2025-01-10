@@ -1,6 +1,6 @@
 export default function Menu() {
     return (
-	<nav className="bg-primary w-full flex justify-between">
+	<nav className="bg-primary dark:bg-primary-dark border-b border-foreground w-full flex justify-between">
 	    <span className="hidden md:flex">
 		<MenuItem>lists</MenuItem>
 	    	<MenuItem>create</MenuItem>
@@ -20,7 +20,7 @@ export default function Menu() {
 
 function MenuItem({children}) {
     return (
-	<a className="bg-primary p-5 hover:brightness-125 list-none">
+	<a className="bg-primary dark:bg-primary-dark px-5 py-3 hover:brightness-125 list-none">
 	    {children}
 	</a>
     )

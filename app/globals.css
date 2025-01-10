@@ -5,12 +5,16 @@
 :root {
     --background: theme('colors.green.50');
     --foreground: theme('colors.gray.950');
+    --primary: theme('colors.green.500');
+    --secondary: theme('colors.red.600');
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: theme('colors.gray.950');
+        --background: theme('colors.stone.800');
         --foreground: theme('colors.green.50');
+	--primary: theme('colors.green.800');
+	--secondary: theme('colors.red.700');
     }
 }
 
