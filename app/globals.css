@@ -5,6 +5,7 @@
 :root {
     --background: theme('colors.green.50');
     --foreground: theme('colors.gray.950');
+    --midground: theme('colors.gray.500');
     --primary: theme('colors.green.500');
     --secondary: theme('colors.red.600');
 }
@@ -13,6 +14,7 @@
     :root {
         --background: theme('colors.stone.800');
         --foreground: theme('colors.green.50');
+        --midground: theme('colors.stone.600');
 	--primary: theme('colors.green.800');
 	--secondary: theme('colors.red.700');
     }
