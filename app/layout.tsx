@@ -23,6 +23,7 @@ export default function RootLayout({
 	        className={`${lexend.variable} antialiased`}
     	    >
     	        {children}
+                <script src="path/to/dist/feather.js"></script>
     	    </body>
     	</html>
     );
