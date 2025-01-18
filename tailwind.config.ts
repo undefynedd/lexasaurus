@@ -14,6 +14,8 @@ export default {
         "midground": "var(--midground)",
 	"primary": "var(--primary)",
 	"secondary": "var(--secondary)",
+	"primary-fg": "var(--primary-fg)",
+	"secondary-fg": "var(--secondary-fg)",
       },
     },
   },
