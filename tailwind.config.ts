@@ -7,6 +7,9 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:  {
+	"display": ["Passion One", "sans-serif"]
+    },
     extend: {
       colors: {
         "background": "var(--background)",

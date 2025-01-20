@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
-import { Lexend } from "next/font/google";
+import { Lexend, Passion_One } from "next/font/google";
 import "./globals.css";
 
 const lexend = Lexend({
     variable: "--font-lexend",
+    subsets: ["latin"],
+});
+
+const passionOne = Passion_One({
+    weight: "700",
+    variable: "--font-passion-one",
     subsets: ["latin"],
 });
 

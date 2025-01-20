@@ -10,7 +10,7 @@ const links = [
 export default function NavBar() {
     return (
         <>
-            <div className="relative text-center text-primary-fg text-3xl mt-5 z-30"><a href="#">Lexasaurus</a></div>
+            <div className="relative font-display tracking-widest text-center text-primary-fg text-4xl mt-5 z-30"><a href="#">Lexasaurus</a></div>
             <div className="bg-background border-b border-midground w-full flex justify-between mt-1 lg:-mt-3">
                 <div className="hidden md:flex">
                     {links.map((link) => (
