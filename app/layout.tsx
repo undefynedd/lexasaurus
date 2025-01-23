@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Lexend, Passion_One } from "next/font/google";
 import "./globals.css";
 
+import NavBar from "./components/menu";
+
 const lexend = Lexend({
     variable: "--font-lexend",
     subsets: ["latin"],
@@ -28,6 +30,7 @@ export default function RootLayout({
 	    <body
 	        className={`${lexend.variable} antialiased`}
     	    >
+	        <NavBar />
     	        {children}
     	    </body>
     	</html>
