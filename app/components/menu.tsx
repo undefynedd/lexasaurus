@@ -35,11 +35,6 @@ export default function NavBar() {
                         ))}
                     </MenuItems>
                 </Menu>
-                <div className="flex">
-                    {leftLinks.map((link) => (
-                        <Link key={link.label} href={link.href} className="bg-background px-5 py-3 transition hover:bg-midground">{link.label}</Link>
-                    ))}
-                </div>
                 <Link href="/login" className="bg-background px-5 py-3 transition hover:bg-midground">login?</Link>
             </div>
         </>
