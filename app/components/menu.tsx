@@ -1,4 +1,5 @@
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react"
+import Link from "next/link"
 
 const links = [
     { href: "/lists", label: "lists" },
@@ -10,11 +11,11 @@ const links = [
 export default function NavBar() {
     return (
         <>
-            <div className="relative font-display tracking-widest transition-all hover:tracking-[0.5em] motion-reduce:transition-none motion-reduce:hover:tracking-widest motion-reduce:hover:brightness-90 dark:motion-reduce:hover:brightness-150 text-center text-primary-fg text-4xl mt-5 z-30"><a href="#">Lexasaurus</a></div>
+            <div className="relative font-display tracking-widest transition-all hover:tracking-[0.5em] motion-reduce:transition-none motion-reduce:hover:tracking-widest motion-reduce:hover:brightness-90 dark:motion-reduce:hover:brightness-150 text-center text-primary-fg text-4xl mt-5 z-30"><Link href="#">Lexasaurus</Link></div>
             <div className="bg-background border-b border-midground w-full flex justify-between mt-1 lg:-mt-3">
                 <div className="hidden md:flex">
                     {links.map((link) => (
-                        <a key={link.label} href={link.href} className="bg-background px-5 py-3 hover:brightness-90 dark:hover:brightness-150">{link.label}</a>
+                        <Link key={link.label} href={link.href} className="bg-background px-5 py-3 hover:brightness-90 dark:hover:brightness-150">{link.label}</Link>
                     ))}
                 </div>
                 <Menu>
