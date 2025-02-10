@@ -1,61 +1,108 @@
+import Card from "./card"
 export default function Feed() {
     return(
-        <main className="flex flex-col gap-8 row-start-2 items-center">
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
-            <div className="px-4">hello</div>
+        <main className="flex flex-col gap-8 row-start-2 items-center px-5">
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
+            <Card>hello</Card>
         </main>
     );
 }

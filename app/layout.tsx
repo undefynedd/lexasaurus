@@ -31,6 +31,7 @@ export default function RootLayout({
 	        className={`${lexend.variable} antialiased`}
     	    >
 	        <NavBar />
+		<br></br>
     	        {children}
     	    </body>
     	</html>
